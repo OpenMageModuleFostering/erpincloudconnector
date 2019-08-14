@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/ERPinCloudConnector",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "ERPinCloud Connector",
+    "authors": [
+    {
+        "name": "Team ERPInCloud",
+        "email": "sales@erpincloud.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <ERPinCloud_Connector>
+      <active>true</active>
+      <codePool>community</codePool>
+      <version>0.1.0</version>
+    </ERPinCloud_Connector>
+  </modules>
+</config>

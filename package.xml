@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>ERPinCloudConnector</name>
+    <version>2.1.2</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>ERPinCloud Connector</summary>
+    <description>ERPinCloud Connector</description>
+    <notes>ERPinCloud Connector</notes>
+    <authors><author><name>Team ERPInCloud</name><user>teameic</user><email>sales@erpincloud.com</email></author></authors>
+    <date>2014-09-23</date>
+    <time>10:46:09</time>
+    <contents><target name="magecommunity"><dir name="ERPinCloud"><dir name="Connector"><dir name="controllers"><dir name="Adminhtml"><file name="InitController.php" hash="0c33cbb19dff407d42bac6ae3bcf1603"/></dir><file name="OpenerpsyncController.php" hash="bb16d769e95d4b266f50a22d4600f4a1"/></dir><dir name="etc"><file name="api.xml" hash="42cc140b563cf220de889101d904f9fd"/><file name="config.xml" hash="6f96b2a3646e3b345ebdbf2c0ce34828"/></dir><dir name="Helper"><file name="Data.php" hash="ee0825f5a4dc63493dda423db76a1337"/></dir><dir name="Model"><dir name="Catalog"><file name="Categories.php" hash="58de667fc289d97e542d35b64bafa9b1"/><dir name="Category"><file name="Api.php" hash="60e0e8ad01d1a74d0d518aff96c831e3"/></dir><dir name="Product"><file name="Api.php" hash="9f8deaa123f3b09eb1b89a43effb997c"/><file name="Attributegroup.php" hash="b981dab2ed49b964dcefeb611b4d4b79"/><file name="Attribute.php" hash="85ed7b7cac160520db198108cab323dc"/><file name="Attributeset.php" hash="dca36b9c1b77e8357b1b143d1e8dc03e"/><file name="Link.php" hash="560e91507104c715145c328fff6e82cf"/><file name="Tierprice.php" hash="e9c383174f39caa5b834fc90d9b53d3c"/></dir><file name="Products.php" hash="810fda187e2f16f39471d51436c0bb29"/></dir><file name="Observer.php" hash="fe221305f528d980b7c7954a5651806e"/><dir name="Oerpcore"><file name="Groups.php" hash="651edd6916060cf2adaaa19a66a0a7a7"/><file name="Storeviews.php" hash="c2299f30aaf1f250d25e38622a095576"/><file name="Website.php" hash="1b42acd86e1d5cb4b1926f1882121f63"/></dir><dir name="Oerpcustomer"><file name="Address.php" hash="cc2a4b28af34bde7601f0496b15e04f9"/><file name="Customer.php" hash="00ce50494bb692c2c146b0b967dfd4a7"/><file name="Group.php" hash="83e3f35c2a74306f19737051ca5e717f"/><file name="Subscriber.php" hash="8a419ebf2fc356ab0c877ba1703fcd3c"/></dir><dir name="Oerpstock"><dir name="Item"><file name="Api.php" hash="16fa1b8d6d323b873f727dd1d01a8c88"/></dir></dir><dir name="Sales"><dir name="Order"><file name="Api.php" hash="9b9b33591292976965f6aa608e37db06"/></dir></dir></dir><dir name="sql"><dir name="erpincloudconnector_setup"><file name="mysql4-install-0.0.1.php" hash="9acb1a07cb99fb2d4e0475972ea26108"/><file name="mysql4-upgrade-0.0.1-2.0.0.php" hash="b07c7fa8f9fbd43ce85fdced95879a6b"/><file name="mysql4-upgrade-2.0.0-2.1.0.php" hash="b07c7fa8f9fbd43ce85fdced95879a6b"/><file name="mysql4-upgrade-2.1.0-2.1.1.php" hash="b07c7fa8f9fbd43ce85fdced95879a6b"/><file name="mysql4-upgrade-2.1.1-2.1.2.php" hash="b07c7fa8f9fbd43ce85fdced95879a6b"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="ERPinCloud_Connector.xml" hash="8bba33fa44691eebf98c233292604df8"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>core</channel><min>1.6.0.0</min><max>1.7</max></package><extension><name>gd</name><min>2.0.28</min><max>3.0</max></extension></required></dependencies>
+</package>
