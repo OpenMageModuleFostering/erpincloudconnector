@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/ERPinCloudConnector",
+    "name": "openmage-module-fostering\/erpincloudconnector",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "ERPinCloud Connector",
     "authors": [
